@@ -2,7 +2,6 @@ import GoogleMapsReact from "google-map-react";
 import LocationMarker from "./LocationMarker";
 
 const Map = ({ center, zoom }) => {
-  console.log(process.env.REACT_APP_MAP_KEY);
   return (
     <div className="map">
       <GoogleMapsReact
